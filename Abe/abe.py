@@ -73,17 +73,16 @@ DEFAULT_TEMPLATE = """
 <div class="row">
 <div class="col-lg-12">
     <h1><a href="%(dotdot)s%(HOMEPAGE)s"><img
-     src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="DASH logo" /></a>
+     src="%(dotdot)s%(STATIC_PATH)slogo32.png" alt="Dash logo" /></a>
     </h1>
     %(body)s
     <p><a href="%(dotdot)sq">API</a> (machine-readable pages)</p>
     <p style="font-size: smaller">
         <span style="font-style: italic">
-            DASH (Darkcoin) Explorer powered by <a href="%(ABE_URL)s">%(APPNAME)s</a>.
+            Dash Explorer powered by <a href="%(ABE_URL)s">%(APPNAME)s</a>.
         </span>
         %(download)s
-        Donate some coins, if you like it 
-        <a href="%(dotdot)saddress/%(DONATIONS_DASH)s">dash address</a>.
+        <a href="%(dotdot)saddress/%(DONATIONS_DASH)s">Donate</a> some coins, if you like it.
     </p>
 </div>
 </div>
