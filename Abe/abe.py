@@ -49,6 +49,7 @@ COPYRIGHT_URL = 'https://github.com/bitcoin-abe'
 
 DONATIONS_BTC = '1PWC7PNHL1SgvZaN7xEtygenKjWobWsCuf'
 DONATIONS_NMC = 'NJ3MSELK1cWnqUa6xhF2wUYAnz3RSrWXcK'
+DONATIONS_DASH = 'XvKkW3NJFhTr9hcgbV8EQcGqbCCshDS8vj'
 
 TIME1970 = time.strptime('1970-01-01','%Y-%m-%d')
 EPOCH1970 = calendar.timegm(TIME1970)
@@ -2055,6 +2056,7 @@ def create_conf():
             "COPYRIGHT_URL": COPYRIGHT_URL,
             "DONATIONS_BTC": DONATIONS_BTC,
             "DONATIONS_NMC": DONATIONS_NMC,
+            "DONATIONS_DASH": DONATIONS_DASH,
             "CONTENT_TYPE": DEFAULT_CONTENT_TYPE,
             "HOMEPAGE": DEFAULT_HOMEPAGE,
             },
